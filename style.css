@@ -1,0 +1,76 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 0;padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+.main{
+    height: 50%; width: 30%;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(6, 6, 6);
+    padding: 1%;
+}
+
+#display{
+    width: 94%;
+    padding: 3%;
+    margin-bottom: 3%;
+    background-color: rgb(6, 6, 6);
+    border: none;
+    font-size: 140%;
+    color: white;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+
+.numbers, .zeroes, .operators, .equalto, .function{
+    width: calc((100%/4) - 1%);
+    padding: 5%;
+    font-size: 140%;
+    background-color: #121212;
+    color: white;
+    /* margin-bottom: 2%; */
+    /* border: 1px solid green; */
+    border: none;
+}
+
+.one,.two,.three,.four,.five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid teal; */
+}
+
+
+
+button:hover{
+    background-color: darkgray;
+}
+
+
+#equal{
+    width: calc(100% - 41% - 10%);
+    background-color: white;
+    color: black;
+}
+
+#equal:hover{
+    background-color: red;
+    color: white;
+}
+
+#de,#ac{
+    color: red;
+}
+
+#de:hover , #ac:hover{
+    background-color: red;
+    color: white;
+}
